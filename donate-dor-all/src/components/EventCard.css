@@ -1,0 +1,60 @@
+.card__container1 {
+    @apply shadow-sm hover:shadow-lg rounded-xl bg-white text-black border overflow-hidden transition-shadow duration-300 hover:cursor-pointer ;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 30rem;
+    margin-top: 5rem;
+    margin-left: 12rem
+}
+
+.card__image__container1 {
+    @apply  relative;
+    height: 30rem;
+}
+
+.card__container2 {
+    @apply shadow-sm hover:shadow-lg rounded-xl bg-white text-black border overflow-hidden transition-shadow duration-300 hover:cursor-pointer ;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 30rem;
+    position: absolute;
+    top: 76.5rem;
+    left: 50rem;
+}
+
+.card__image__container2 {
+    @apply  relative;
+    height: 30rem;
+}
+
+
+
+
+.card__image {
+    @apply object-cover h-full w-full;
+}
+
+.card__body {
+    @apply flex flex-col gap-4 p-6 text-center justify-center items-start;
+}
+
+.card__event__name {
+    @apply font-bold  text-center mx-auto;
+}
+
+.card__event__desc {
+    @apply text-base;
+}
+
+.card__container1:hover {
+    transform: scale(1.005) translatey(-7px);
+    transition: all ease-in 0.2s;
+}
+.card__container2:hover {
+    transform: scale(1.005) translatey(-7px);
+    transition: all ease-in 0.2s;
+}
+.card__container {
+    transition: all ease-in 0.2s;
+    transform: scale(1);
+}

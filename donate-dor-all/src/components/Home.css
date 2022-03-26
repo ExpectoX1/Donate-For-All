@@ -1,7 +1,35 @@
-.video{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
 
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+body {
+  background-color: black;
+}
+
+.textsz {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 10rem;
+}
+.text-donate {
+  position: relative;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 12rem;
+}
+
+.card1{
+    position: relative;
+    width: 25rem;
+    height: 10rem;
+    z-index: -1;
 }

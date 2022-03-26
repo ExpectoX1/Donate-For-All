@@ -39,9 +39,9 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className='navbar-container '>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            PicturesInSpaceTime
+            Donate For all 
             {/* <i class='fab fa-typo3' /> */}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -55,20 +55,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/upload'
+                to='/donate'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Upload
+                Donate
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/gallery'
+                to='/recycle'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Gallery
+                Recycle
               </Link>
             </li>
             <li className='nav-item'>
